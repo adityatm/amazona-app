@@ -78,6 +78,7 @@ export default function ProfileScreen() {
                 id="email"
                 type="email"
                 placeholder="Enter email"
+                disabled={true}
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
               ></input>
